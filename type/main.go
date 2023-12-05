@@ -22,9 +22,24 @@ func main() {
 
 	fl := 3.2
 	fmt.Printf("%T, %T\n", fl64, fl)
-	
+
 
 	var fl32 float32 = 1.2
 	fmt.Printf("%T\n", fl32 )
+
+	fmt.Println(`test
+	test
+	     tese`)
+
+	var s string = "hello"
+	fmt.Println(string(s[0]))
+
+	byteA := []byte{72, 73}
+	fmt.Println(byteA)
+
+	fmt.Println(string(byteA))
+
+	c := []byte("HI")
+	fmt.Println(c)
 
 }
