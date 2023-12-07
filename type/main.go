@@ -42,4 +42,7 @@ func main() {
 	c := []byte("HI")
 	fmt.Println(c)
 
+	var arr1 [3]int 
+	fmt.Println(arr1)
+
 }
